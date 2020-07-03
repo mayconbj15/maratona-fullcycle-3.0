@@ -8,11 +8,11 @@
 - [Docker](https://www.docker.com/)
 
 ### Como executar
-Você pode usar diretamente a imagem que gerei usando o comando 
+##### Você pode usar diretamente a imagem que gerei usando o comando 
 
     $ docker run mayconbj15/hello-world-go
 
-#### Você também pode criar sua própria imagem
+##### Ou criar sua própria imagem
 Na pasta do [Dockerfile](https://github.com/mayconbj15/maratona-fullcycle-3.0/blob/master/01-hello-world-go/Dockerfile) execute o comando
     
     $ docker build -t <nome_imagem> .
@@ -30,10 +30,11 @@ Então execute
 - [Docker](https://www.docker.com/)
 
 ### Como executar
-Você pode usar diretamente a imagem que gerei usando o comando 
+##### Você pode usar diretamente a imagem que gerei usando o comando 
     
     $ docker run mayconbj15/hello-world-api
 
+##### Ou criar sua própria imagem
 Na pasta do [Dockerfile](https://github.com/mayconbj15/maratona-fullcycle-3.0/blob/master/02-hello-world-api/Dockerfile) execute o comando
     
     $ docker build -t <nome_imagem> .
@@ -64,10 +65,11 @@ Após fazer as configurações da AWS descritas na referência [AWS Credentials 
 - [Docker](https://www.docker.com/)
 
 ### Como executar
-Você pode usar diretamente a imagem que gerei usando o comando 
+##### Você pode usar diretamente a imagem que gerei usando o comando 
     
     $ docker run mayconbj15/aulas-django
 
+##### Ou criar sua própria imagem
 Na pasta do [Dockerfile](https://github.com/mayconbj15/maratona-fullcycle-3.0/blob/master/04-django/lista_aulas/Dockerfile) execute o comando
     
     $ docker build -t <nome_imagem> .
